@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Horus</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="categories_activity">Categories Activity</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="Android_charting_application">Android charting application xml ui design tutorial with example.
+        Android charting application xml ui design tutorial with example. Android charting application xml ui design
+        tutorial with example. Android charting application xml ui design tutorial with example.
+    </string>
+    <string name="chat_user2">Android charting application xml ui design. Android charting application xml ui design
+        tutorial with example. Android charting application xml ui design. Android charting application xml ui design.
+    </string>
+    <string name="chat_user3">Android charting application xml ui design tutorial with example. Android charting
+        application xml ui design tutorial with example. Android charting application xml ui design tutorial with
+        example. Android charting application xml ui design tutorial with example.
+    </string>
+    <string name="chat_user4">Android charting application xml ui design. Android charting application xml ui design
+        tutorial with example. Android charting application xml ui design. Android charting application xml ui design.
+    </string>
+    <string name="userImg">userImg</string>
+    <string name="finish_btn_txt">Finish</string>
+    <string name="categories_label">Categories</string>
+    <string name="sports">Sports</string>
+    <string name="medical">Medical</string>
+    <string name="historical">Historical</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="religious">Religious</string>
+    <string name="select_your_tourism_type">Select your tourism type</string>
+    <string name="write_a_message">\u0020\u0020\u0020Write a message…</string>
+    <string name="profile_info">profile info</string>
+    <string name="timeline">Timeline</string>
+    <string name="shoping">shoping</string>
+    <string name="explore_recent_offers">explore recent offers</string>
+    <string name="fragment_five_text">fragment five text</string>
+
+    // login
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_background">login background</string>
+    <string name="horus">Horus</string>
+    <string name="use_other_methods">Use other Methods</string>
+    <string name="email_gamil_com">Email@Gamil.com</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+
+    //profile
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_1">item 1</string>
+    <string name="tut_head">Tut Head</string>
+    <string name="hat">Hat</string>
+    <string name="statue">Statue</string>
+    <string name="t_shirt">T-shirt</string>
+    <string name="_49_egp">49 EGP</string>
+    <string name="ashraf_afify">Ashraf Afify</string>
+    <string name="account_info">Account Info</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="_91_8129999999">+91–8129999999</string>
+    <string name="email">Email</string>
+    <string name="ashrafafify_horus_com">ashrafafify@horus.com</string>
+    <string name="address">Address</string>
+    <string name="avenue_2nd_street_nw_sy">Avenue 2nd Street NW SY.</string>
+    <string name="d_o_b">D.O.B</string>
+    <string name="_12_05_1990">12–05–1990</string>
+    <string name="ahsrafafify_horus_com">ahsrafafify@horus.com</string>
+    <string name="profile">Profile</string>
+    <string name="naama_blue">Naama Blue</string>
+    <string name="helnan_dream">Helnan Dream</string>
+    <string name="pyramisa_isis">Pyramisa Isis</string>
+    <string name="us_113">US$ 113</string>
+    <string name="us_50">US$ 50</string>
+    <string name="us_22">US$ 22</string>
+    <string name="tropitel">Tropitel</string>
+    <string name="us_68">US$ 68</string>
+    <string name="sunrise_arabian">Sunrise Arabian</string>
+    <string name="us_118">US$ 118</string>
+    <string name="solymar">Solymar</string>
+    <string name="us_101">US$ 101</string>
+    <string name="jaz_mirabel">Jaz Mirabel</string>
+    <string name="us_135">US$ 135</string>
+    <string name="carlton">Carlton</string>
+    <string name="us_300">US$ 300</string>
+
+</resources>

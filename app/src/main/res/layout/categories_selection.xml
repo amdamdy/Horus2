@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activities.CategoriesActivity"
+        android:id="@+id/parent_view">
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+            app:layout_constraintEnd_toStartOf="@+id/cardView5"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/sports"/>
+
+        <TextView
+                android:text="@string/sports"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView1"
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintEnd_toStartOf="@+id/cardView4">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/medical"/>
+
+        <TextView
+                android:text="@string/medical"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView3"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintEnd_toStartOf="@+id/cardView6"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView2">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/historical"/>
+
+        <TextView
+                android:text="@string/historical"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView4"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5"
+            app:layout_constraintBottom_toTopOf="@+id/cardView6"
+            app:layout_constraintStart_toEndOf="@+id/cardView2"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/entertainment"/>
+
+        <TextView
+                android:text="@string/entertainment"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView5"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style"
+            app:layout_constraintBottom_toTopOf="@+id/cardView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView1"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/historical"/>
+
+        <TextView
+                android:text="@string/historical"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+            android:id="@+id/cardView6"
+            app:cardCornerRadius="16dp"
+            style="@style/card_view_style"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4"
+            app:layout_constraintStart_toEndOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/textView2">
+
+        <android.support.v7.widget.AppCompatImageView
+                style="@style/card_img"
+                android:src="@mipmap/religious"/>
+
+        <TextView
+                android:text="@string/religious"
+                style="@style/card_txt"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/select_your_tourism_type"
+              android:textSize="25sp"
+              android:textColor="@color/timeline"
+              android:textAllCaps="true"
+              android:textStyle="bold"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+              app:layout_constraintBottom_toTopOf="@+id/finish_btn" android:layout_marginTop="8dp"
+              app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.98"
+              android:id="@+id/textView2"/>
+
+    <Button android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/finish_btn_txt"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="488dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.855"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            android:id="@+id/finish_btn"
+    />
+</android.support.constraint.ConstraintLayout>
